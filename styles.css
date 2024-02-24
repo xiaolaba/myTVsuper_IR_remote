@@ -1,0 +1,63 @@
+
+  .remote-container {
+    position: relative;
+    width: 600px; /* Adjust according to your image size */
+    margin: 0 auto;
+  }
+
+  .remote-image {
+    display: block;
+    width: 100%;
+  }
+
+  .audio-button {
+    position: absolute;
+    border-radius: 50%;
+    background-color: #66cc00; // green /* Change button color to green */
+    width: 60px; /* Adjust button size */
+    height: 30px; /* Adjust button size */
+    border: none;
+    cursor: pointer;
+    /* Adjust content alignment to center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1; /* Ensure buttons are above the image */
+  }
+
+  /* Adjust the position of each button */
+  .audio-button-1 {
+    top: 210px;
+    left: 390px;
+  }
+
+  .audio-button-2 {
+    top: 100px;
+    left: 0px;
+  }
+
+  .audio-button-3 {
+    top: 200px;
+    left: 0px;
+  }
+
+  .audio-button-4 {
+    top: 300px;
+    left: 0px;
+  }
+
+  .audio-button-5 {
+    top: 400px;
+    left: 0px;
+  }
+
+  .audio-button-6 {
+    top: 500px;
+    left: 0px;
+  }
+  
+  .audio-button-7 {
+    top: 5px;
+    left: 79px;
+  }
+  
